@@ -41,7 +41,7 @@ authentication:
       header_name: Authorization
       header_value_prefix: Bearer
       jwks:
-        - url: https://www.googleapis.com/service_accounts/v1/jwk/securetoken@system.gserviceaccount.com
+        - url: https://dev-zzp5enui.us.auth0.com/.well-known/jwks.json
 
 authorization:
   require_authentication: false
